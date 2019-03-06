@@ -16,7 +16,7 @@ public class StripeService {
 
     @Autowired
     void StripeClient() {
-        Stripe.apiKey = "sk_test_9pLSxXjXolREB69shvbWzGiU";
+        Stripe.apiKey = "";
     }
 
     public Charge chargeMethod(String source, double amount, String currency) throws StripeException {
